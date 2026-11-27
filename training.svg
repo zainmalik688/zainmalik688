@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 430" width="1000" height="430" font-family="'Segoe UI', Inter, Helvetica, Arial, sans-serif">
+<defs><clipPath id="frame"><rect width="1000" height="430" rx="22"/></clipPath></defs>
+<g clip-path="url(#frame)">
+<rect width="1000" height="430" fill="#0a0e15"/>
+<g font-family="Consolas, 'Cascadia Code', 'Courier New', monospace" font-size="17">
+<text x="32" y="50" fill="#C084FC">&gt;&gt;&gt; <tspan fill="#e6edf3">model.fit(</tspan><tspan fill="#fb9b67">skills</tspan><tspan fill="#e6edf3">, epochs=</tspan><tspan fill="#5FD891">∞</tspan><tspan fill="#e6edf3">)</tspan></text>
+<text x="32" y="104" fill="#5a6270">epoch 1/7</text>
+<text x="130" y="104" fill="#e6edf3">Python</text>
+<rect x="350" y="90" width="270" height="16" rx="8" fill="#1b2230"/>
+<rect x="350" y="90" width="0" height="16" rx="8" fill="#36BCF7"><animate attributeName="width" from="0" to="248" dur="1s" begin="0.60s" fill="freeze"/></rect>
+<text x="636" y="104" fill="#36BCF7" opacity="0">strong<set attributeName="opacity" to="1" begin="1.60s" fill="freeze"/></text><text x="32" y="144" fill="#5a6270">epoch 2/7</text>
+<text x="130" y="144" fill="#e6edf3">Machine Learning</text>
+<rect x="350" y="130" width="270" height="16" rx="8" fill="#1b2230"/>
+<rect x="350" y="130" width="0" height="16" rx="8" fill="#7C9CFF"><animate attributeName="width" from="0" to="216" dur="1s" begin="1.05s" fill="freeze"/></rect>
+<text x="636" y="144" fill="#7C9CFF" opacity="0">strong<set attributeName="opacity" to="1" begin="2.05s" fill="freeze"/></text><text x="32" y="184" fill="#5a6270">epoch 3/7</text>
+<text x="130" y="184" fill="#e6edf3">Deep Learning</text>
+<rect x="350" y="170" width="270" height="16" rx="8" fill="#1b2230"/>
+<rect x="350" y="170" width="0" height="16" rx="8" fill="#C084FC"><animate attributeName="width" from="0" to="194" dur="1s" begin="1.50s" fill="freeze"/></rect>
+<text x="636" y="184" fill="#C084FC" opacity="0">solid<set attributeName="opacity" to="1" begin="2.50s" fill="freeze"/></text><text x="32" y="224" fill="#5a6270">epoch 4/7</text>
+<text x="130" y="224" fill="#e6edf3">Computer Vision</text>
+<rect x="350" y="210" width="270" height="16" rx="8" fill="#1b2230"/>
+<rect x="350" y="210" width="0" height="16" rx="8" fill="#fb9b67"><animate attributeName="width" from="0" to="189" dur="1s" begin="1.95s" fill="freeze"/></rect>
+<text x="636" y="224" fill="#fb9b67" opacity="0">solid<set attributeName="opacity" to="1" begin="2.95s" fill="freeze"/></text><text x="32" y="264" fill="#5a6270">epoch 5/7</text>
+<text x="130" y="264" fill="#e6edf3">FastAPI + PostgreSQL</text>
+<rect x="350" y="250" width="270" height="16" rx="8" fill="#1b2230"/>
+<rect x="350" y="250" width="0" height="16" rx="8" fill="#5FD891"><animate attributeName="width" from="0" to="205" dur="1s" begin="2.40s" fill="freeze"/></rect>
+<text x="636" y="264" fill="#5FD891" opacity="0">solid<set attributeName="opacity" to="1" begin="3.40s" fill="freeze"/></text><text x="32" y="304" fill="#5a6270">epoch 6/7</text>
+<text x="130" y="304" fill="#e6edf3">React Native</text>
+<rect x="350" y="290" width="270" height="16" rx="8" fill="#1b2230"/>
+<rect x="350" y="290" width="0" height="16" rx="8" fill="#61DAFB"><animate attributeName="width" from="0" to="148" dur="1s" begin="2.85s" fill="freeze"/></rect>
+<text x="636" y="304" fill="#61DAFB" opacity="0">growing<set attributeName="opacity" to="1" begin="3.85s" fill="freeze"/></text><text x="32" y="344" fill="#5a6270">epoch 7/7</text>
+<text x="130" y="344" fill="#e6edf3">Docker + MLOps</text>
+<rect x="350" y="330" width="270" height="16" rx="8" fill="#1b2230"/>
+<rect x="350" y="330" width="0" height="16" rx="8" fill="#F4BF5C"><animate attributeName="width" from="0" to="122" dur="1s" begin="3.30s" fill="freeze"/></rect>
+<text x="636" y="344" fill="#F4BF5C" opacity="0">learning<set attributeName="opacity" to="1" begin="4.30s" fill="freeze"/></text>
+<text x="32" y="392" fill="#5FD891" opacity="0">✓ still training — every project adds an epoch<set attributeName="opacity" to="1" begin="4.4s" fill="freeze"/></text>
+</g>
+<rect x="740" y="50" width="240" height="310" rx="14" fill="#0f1622" stroke="#30363d"/>
+<text x="760" y="78" fill="#a9b6c9" font-size="14" font-family="Consolas, 'Cascadia Code', 'Courier New', monospace">training loss ↓</text>
+<line x1="760" y1="320" x2="960" y2="320" stroke="#30363d"/><line x1="760" y1="90" x2="760" y2="320" stroke="#30363d"/>
+<path d="M760.0,94.6 L765.0,108.4 L770.0,135.6 L775.0,156.9 L780.0,162.2 L785.0,173.6 L790.0,196.2 L795.0,206.6 L800.0,206.3 L805.0,218.4 L810.0,235.8 L815.0,237.4 L820.0,236.0 L825.0,249.5 L830.0,260.7 L835.0,256.3 L840.0,257.0 L845.0,270.9 L850.0,275.4 L855.0,268.1 L860.0,272.6 L865.0,285.1 L870.0,283.1 L875.0,276.3 L880.0,284.7 L885.0,293.5 L890.0,286.6 L895.0,283.0 L900.0,293.8 L905.0,297.4 L910.0,288.1 L915.0,289.1 L920.0,300.2 L925.0,298.1 L930.0,289.2 L935.0,295.0 L940.0,303.8 L945.0,296.9 L950.0,291.0 L955.0,300.4 L960.0,304.7" fill="none" stroke="#C084FC" stroke-width="3" stroke-linejoin="round" stroke-dasharray="900" stroke-dashoffset="900"><animate attributeName="stroke-dashoffset" from="900" to="0" dur="3.5s" begin="0.5s" fill="freeze"/></path>
+<text x="760" y="348" fill="#5a6270" font-size="13" font-family="Consolas, 'Cascadia Code', 'Courier New', monospace">self-rated · not a benchmark</text>
+</g>
+<rect x="1" y="1" width="998" height="428" rx="21" fill="none" stroke="#30363d" stroke-width="2"/>
+</svg>

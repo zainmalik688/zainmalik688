@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/hero.svg" width="100%" alt="Muhammad Zain Ul Abidin - I teach machines to hear, see and find their way" />
+  <img src="hero.svg" width="100%" alt="Muhammad Zain Ul Abidin - I teach machines to hear, see and find their way" />
 </p>
 
 <p align="center">
@@ -12,13 +12,13 @@
 <br/>
 
 <p align="center">
-  <img src="assets/terminal.svg" width="88%" alt="Terminal: whoami, focus, projects and motto" />
+  <img src="terminal.svg" width="88%" alt="Terminal: whoami, focus, projects and motto" />
 </p>
 
 <h2 align="center">📡 Project radar</h2>
 
 <p align="center">
-  <img src="assets/radar.svg" width="92%" alt="Radar sweeping over KinSense, HireMind AI, Swarm PSO and CV Lab" />
+  <img src="radar.svg" width="92%" alt="Radar sweeping over KinSense, HireMind AI, Swarm PSO and CV Lab" />
 </p>
 
 <p align="center">
@@ -32,7 +32,7 @@
 <h2 align="center">🧠 Training log</h2>
 
 <p align="center">
-  <img src="assets/training.svg" width="92%" alt="model.fit(skills): Python, ML, Deep Learning, Computer Vision, FastAPI, React Native, Docker" />
+  <img src="training.svg" width="92%" alt="model.fit(skills): Python, ML, Deep Learning, Computer Vision, FastAPI, React Native, Docker" />
 </p>
 
 <p align="center">
@@ -69,5 +69,5 @@
 </p>
 
 <p align="center">
-  <img src="assets/footer.svg" width="100%" alt="Animated equalizer: thanks for listening" />
+  <img src="footer.svg" width="100%" alt="Animated equalizer: thanks for listening" />
 </p>
