@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 400" width="1000" height="400" font-family="Consolas, 'Cascadia Code', 'Courier New', monospace" font-size="19">
+  <defs>
+    <linearGradient id="win" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0f1622"/>
+      <stop offset="1" stop-color="#0a0e15"/>
+    </linearGradient>
+    <clipPath id="c0"><rect x="28" y="72" height="34" width="0"><animate attributeName="width" from="0" to="950" dur="0.9s" begin="0.4s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c1"><rect x="28" y="106" height="34" width="0"><animate attributeName="width" from="0" to="950" dur="0.9s" begin="1.3s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c2"><rect x="28" y="140" height="34" width="0"><animate attributeName="width" from="0" to="950" dur="0.9s" begin="2.2s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c3"><rect x="28" y="174" height="34" width="0"><animate attributeName="width" from="0" to="950" dur="0.9s" begin="3.1s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c4"><rect x="28" y="208" height="34" width="0"><animate attributeName="width" from="0" to="950" dur="0.9s" begin="4s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c5"><rect x="28" y="242" height="34" width="0"><animate attributeName="width" from="0" to="950" dur="0.9s" begin="4.9s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c6"><rect x="28" y="276" height="34" width="0"><animate attributeName="width" from="0" to="950" dur="0.9s" begin="5.8s" fill="freeze"/></rect></clipPath>
+    <clipPath id="c7"><rect x="28" y="310" height="34" width="0"><animate attributeName="width" from="0" to="950" dur="0.9s" begin="6.7s" fill="freeze"/></rect></clipPath>
+  </defs>
+  <rect x="1" y="1" width="998" height="398" rx="16" fill="url(#win)" stroke="#30363d" stroke-width="2"/>
+  <path d="M1 17 A16 16 0 0 1 17 1 H983 A16 16 0 0 1 999 17 V46 H1 Z" fill="#161b22"/>
+  <circle cx="30" cy="24" r="7" fill="#ff5f57"/><circle cx="54" cy="24" r="7" fill="#febc2e"/><circle cx="78" cy="24" r="7" fill="#28c840"/>
+  <text x="500" y="30" fill="#8b98ad" font-size="15" text-anchor="middle">zain@bahria: ~</text>
+  <g clip-path="url(#c0)"><text x="32" y="96"><tspan fill="#5FD891">zain@bahria</tspan><tspan fill="#e6edf3">:</tspan><tspan fill="#36BCF7">~</tspan><tspan fill="#e6edf3">$ whoami</tspan></text></g>
+  <g clip-path="url(#c1)"><text x="32" y="130"><tspan fill="#C084FC">→ </tspan><tspan fill="#a9b6c9">Muhammad Zain Ul Abidin  ·  BS Artificial Intelligence @ Bahria University</tspan></text></g>
+  <g clip-path="url(#c2)"><text x="32" y="164"><tspan fill="#5FD891">zain@bahria</tspan><tspan fill="#e6edf3">:</tspan><tspan fill="#36BCF7">~</tspan><tspan fill="#e6edf3">$ cat focus.txt</tspan></text></g>
+  <g clip-path="url(#c3)"><text x="32" y="198"><tspan fill="#C084FC">→ </tspan><tspan fill="#a9b6c9">Machine Learning  ·  Deep Learning  ·  Computer Vision</tspan></text></g>
+  <g clip-path="url(#c4)"><text x="32" y="232"><tspan fill="#5FD891">zain@bahria</tspan><tspan fill="#e6edf3">:</tspan><tspan fill="#36BCF7">~</tspan><tspan fill="#e6edf3">$ ls projects/</tspan></text></g>
+  <g clip-path="url(#c5)"><text x="32" y="266"><tspan fill="#C084FC">→ </tspan><tspan fill="#a9b6c9">KinSense/   HireMind-AI/   swarm-pathplanning/   computer-vision/</tspan></text></g>
+  <g clip-path="url(#c6)"><text x="32" y="300"><tspan fill="#5FD891">zain@bahria</tspan><tspan fill="#e6edf3">:</tspan><tspan fill="#36BCF7">~</tspan><tspan fill="#e6edf3">$ echo $MOTTO</tspan></text></g>
+  <g clip-path="url(#c7)"><text x="32" y="334"><tspan fill="#C084FC">→ </tspan><tspan fill="#a9b6c9">"Secure first. Test it. Then ship it."</tspan></text></g>
+  <g opacity="0">
+    <set attributeName="opacity" to="1" begin="7.6s" fill="freeze"/>
+    <text x="32" y="368"><tspan fill="#5FD891">zain@bahria</tspan><tspan fill="#e6edf3">:</tspan><tspan fill="#36BCF7">~</tspan><tspan fill="#e6edf3">$ </tspan></text>
+    <rect x="192" y="351" width="11" height="21" fill="#36BCF7"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+  </g>
+</svg>
