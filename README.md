@@ -28,6 +28,7 @@
 </p>
 
 <p align="center"><sub>🛡️ <b>KinSense</b> is my final year project. It's in active development with 800+ automated backend tests.</sub></p>
+<p align="center"><sub>🧾 <b>Pakistan Income Tax RAG</b> answers tax questions with retrieval-augmented generation. It's 🔒 private while I build it.</sub></p>
 
 <h2 align="center">🧠 Training log</h2>
 
@@ -107,6 +108,11 @@
     <td align="center">💬</td>
     <td><b>LLM and generative AI apps</b><br/><sub>Chatbots, document and resume analysis</sub></td>
     <td><sub>Google GenAI · FastAPI · Streamlit</sub></td>
+  </tr>
+  <tr>
+    <td align="center">🧾</td>
+    <td><b>RAG systems</b><br/><sub>AI assistants that answer questions from your own documents</sub></td>
+    <td><sub>Python · Retrieval-Augmented Generation · LLMs</sub></td>
   </tr>
   <tr>
     <td align="center">🌐</td>
