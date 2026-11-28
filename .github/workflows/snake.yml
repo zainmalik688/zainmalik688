@@ -1,8 +1,8 @@
-name: Generate snake
+name: Update profile (snake + live card)
 
 on:
   schedule:
-    - cron: "0 */12 * * *"
+    - cron: "0 */6 * * *"
   workflow_dispatch:
   push:
     branches: [main]
@@ -14,12 +14,20 @@ jobs:
   generate:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+
       - uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/snake.svg
             dist/snake-dark.svg?palette=github-dark
+
+      - name: Draw live activity card
+        run: python3 live.py dist/live.svg
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:
