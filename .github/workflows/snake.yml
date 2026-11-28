@@ -16,18 +16,19 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      # runs before the snake: the snake tool makes files as root
+      - name: Draw live activity card
+        run: python3 live.py dist/live.svg
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_USER: ${{ github.repository_owner }}
+
       - uses: Platane/snk@v3
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
             dist/snake.svg
             dist/snake-dark.svg?palette=github-dark
-
-      - name: Draw live activity card
-        run: python3 live.py dist/live.svg
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          GH_USER: ${{ github.repository_owner }}
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:
